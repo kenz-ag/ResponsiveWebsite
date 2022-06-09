@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    color: #333;
+    color: rgb(0, 0, 0);
     line-height: 1.6;
 }
 
@@ -26,25 +26,26 @@ a {
     color: rgb(69, 45, 45);
 }
 
-.h1,
-h2 {
+h1, h2, {
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;
 }
 
+
+
 p {
     margin: 10px 0;
 }
 
-img {
+.img {
     width: 100%;
 }
 
 /* Navbar styling */
 
 .navbar {
-    background-color: var(--primary-color) #349864;
+    background-color: #349864;
     color: white;
     height: 70px;
 }
@@ -135,6 +136,6 @@ img {
 /* STATS */
 
 .stats {
-    padding-top 100px;
+    padding-top: 100px;
 }
 

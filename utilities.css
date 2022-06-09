@@ -33,6 +33,10 @@
     transform: scale(0.98);
 }
 
+.text-center {
+    text-align: center;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -51,4 +55,10 @@
 
 .grid-3 {
     grid-template-columns: repeat(3, 1fr);
+}
+
+/*MARGIN*/
+
+..my-1 {
+    margin: 1rem 0;
 }
