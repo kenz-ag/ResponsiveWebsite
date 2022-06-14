@@ -1,7 +1,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 
 :root {
-    --primary-color: #349864;
+    --primary-color: #46765d;
+    --secondary-color: #343434;
+    --dark-color:
+    --light-color: #f4f4f4;
 }
 
 * {
@@ -45,7 +48,7 @@ p {
 /* Navbar styling */
 
 .navbar {
-    background-color: #349864;
+    background-color: #46765d;
     color: white;
     height: 70px;
 }
@@ -74,7 +77,7 @@ p {
 
 .showcase {
     height: 500px;
-    background-color: #349864;
+    background-color: var(--primary-color);
     color: #fff;
     position: relative;
 }
@@ -166,5 +169,10 @@ p {
     grid-row: 1 / span 2;
 }
 
+/* CLOUD */
+
+.cloud . grid {
+    grid-template-columns: 4fr;
+}
 
 

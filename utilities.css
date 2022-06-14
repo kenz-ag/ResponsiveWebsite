@@ -33,6 +33,13 @@
     transform: scale(0.98);
 }
 
+/*Background & colored button */
+
+.bg-primary, .btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
 .text-center {
     text-align: center;
 }
